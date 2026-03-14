@@ -1,0 +1,75 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/questasim64_2021.1/examples
+T_opt
+!s110 1752651827
+VbmUfOCSlOGE_gmanIk0Nn3
+04 3 4 work A_2 fast 0
+=1-047c163f456d-68775832-69-1058
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vA_2
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1753200214
+!i10b 1
+!s100 Zo4;iPU@VnYjEHPXVe7En2
+IHWTJKBX^heb96?]8YRCYU0
+S1
+Z4 dE:/Moustafa/Verification/Assignments/Assignment_2
+w1752652721
+8A_2.sv
+FA_2.sv
+!i122 31
+L0 1 91
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1753200213.000000
+!s107 A_2.sv|design.v|
+Z8 !s90 -reportprogress|300|design.v|A_2.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a_2
+vmulti_op_processor
+R3
+!i10b 1
+!s100 7SEo1aVML]Y:[<Q:dL[dm2
+IeTUSjTY5=<b0^c^X@5iO`2
+R4
+w1752578219
+8design.v
+Fdesign.v
+!i122 31
+L0 1 17
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z10 !s107 A_2.sv|design.v|
+R8
+!i113 0
+R9
+R2

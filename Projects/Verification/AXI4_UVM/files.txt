@@ -1,0 +1,16 @@
+axi_memory.v
+axi4.v
+intf.sv
+common.sv
+sequence_item.sv
+axi4_base_sequence.sv
+sequencer.sv
+driver.sv
+monitor.sv
+agent.sv
+scoreboard.sv
+coverage.sv
+env.sv
+test.sv
+top.sv
+assertions.sv

@@ -1,0 +1,151 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/Moustafa/Verification/Assignments/Assignment_2
+T_opt
+!s110 1753782376
+V4l:TDNn5C38ZVc=^bl>EX0
+04 3 4 work A_3 fast 0
+=1-047c163f456d-68889866-70-974
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vA_3
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+DXx4 work 4 stim 0 22 n2[lloKCB`E0>18Lc_J7A0
+Z4 !s110 1753785395
+!i10b 1
+!s100 GA2]fXel4AYY^8cn3;l9^3
+IzEOJgNij2^Jmfmg<kaK`R0
+S1
+Z5 dE:/Moustafa/Verification/Assignments/Assignment_3
+w1753782331
+8A_3.sv
+FA_3.sv
+!i122 52
+L0 1 123
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z8 !s108 1753785395.000000
+!s107 A_3.sv|uart_tx.v|
+Z9 !s90 -reportprogress|300|uart_tx.v|A_3.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a_3
+Xfsm
+R3
+!s110 1753357821
+!i10b 1
+!s100 7?DjfWCj4jab^01h03J?l1
+IOI_QbZdddO^8=H`N:oCOz3
+S1
+R5
+w1753259592
+8E:/Moustafa/Verification/Assignments/Assignment_3/enum_pkg.sv
+FE:/Moustafa/Verification/Assignments/Assignment_3/enum_pkg.sv
+!i122 1
+Z11 L0 1 0
+VOI_QbZdddO^8=H`N:oCOz3
+R7
+r1
+!s85 0
+31
+!s108 1753357821.000000
+!s107 E:/Moustafa/Verification/Assignments/Assignment_3/enum_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Moustafa/Verification/Assignments/Assignment_3/enum_pkg.sv|
+!i113 0
+Z12 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xstim
+R3
+!s110 1753384966
+!i10b 1
+!s100 [=W?7l4_M<lLX[<UQN8MB1
+In2[lloKCB`E0>18Lc_J7A0
+S1
+R5
+w1753384662
+8E:/Moustafa/Verification/Assignments/Assignment_3/Uart_packet.sv
+FE:/Moustafa/Verification/Assignments/Assignment_3/Uart_packet.sv
+!i122 12
+R11
+Vn2[lloKCB`E0>18Lc_J7A0
+R7
+r1
+!s85 0
+31
+!s108 1753384966.000000
+!s107 E:/Moustafa/Verification/Assignments/Assignment_3/Uart_packet.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Moustafa/Verification/Assignments/Assignment_3/Uart_packet.sv|
+!i113 0
+R12
+R2
+vuart_tx
+R4
+!i10b 1
+!s100 Bc>eU1^5S=KVQ1>5bW97z2
+IH]WdXogi<G4jg^0[;Elnd3
+R5
+w1753196641
+8uart_tx.v
+Fuart_tx.v
+!i122 52
+L0 1 76
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z13 !s107 A_3.sv|uart_tx.v|
+R9
+!i113 0
+R10
+R2

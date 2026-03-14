@@ -1,0 +1,462 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/uart_bus
+=== Design Unit: work.uart_if
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         30        30         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/uart_bus --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         15 
+Toggled Node Count   =         15 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (30 of 30 bins)
+
+=================================================================================
+=== Instance: /top/a4_inst
+=== Design Unit: work.A_4
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/a4_inst/gen_stim/immed__33
+                     A_4.sv(33)                         0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        10         2    83.33%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/a4_inst
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File A_4.sv
+------------------------------------IF Branch------------------------------------
+    46                                       710     Count coming in to IF
+    46              1                        353     
+    49              1                        357     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    61                                       710     Count coming in to IF
+    61              1                        353     
+                                             357     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    62                                       353     Count coming in to IF
+    62              1                        174     
+    62              2                        179     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    89                                       710     Count coming in to IF
+    89              1                        353     
+    102             1                        357     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    97                                       353     Count coming in to IF
+    97              1                        353     
+    99              1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    103                                      357     Count coming in to IF
+    103             1                        357     
+    105             1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       3         0         3     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /top/a4_inst --
+
+  File A_4.sv
+----------------Focused Condition View-------------------
+Line       97 Item    1  ((act_byte == exp_byte) && parity_check)
+Condition totals: 0 of 2 input terms covered = 0.00%
+
+              Input Term   Covered  Reason for no coverage   Hint
+             -----------  --------  -----------------------  --------------
+  (act_byte == exp_byte)         N  '_0' not hit             Hit '_0'
+            parity_check         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target                Non-masking condition(s)      
+ ---------  ---------  --------------------      -------------------------     
+  Row   1:    ***0***  (act_byte == exp_byte)_0  -                             
+  Row   2:          1  (act_byte == exp_byte)_1  parity_check                  
+  Row   3:    ***0***  parity_check_0            (act_byte == exp_byte)        
+  Row   4:          1  parity_check_1            (act_byte == exp_byte)        
+
+----------------Focused Condition View-------------------
+Line       103 Item    1  (act_byte == exp_byte)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+              Input Term   Covered  Reason for no coverage   Hint
+             -----------  --------  -----------------------  --------------
+  (act_byte == exp_byte)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target                Non-masking condition(s)      
+ ---------  ---------  --------------------      -------------------------     
+  Row   1:    ***0***  (act_byte == exp_byte)_0  -                             
+  Row   2:          1  (act_byte == exp_byte)_1  -                             
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         3         1    75.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /top/a4_inst --
+
+  File A_4.sv
+-----------Focused Expression View (Bimodal)------------
+Line       62 Item    1  (tr.even_parity? ~^tr.data_in: ^tr.data_in)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       94 Item    1  (act_parity == exp_parity)
+Expression totals: 0 of 1 input term covered = 0.00%
+
+                  Input Term   Covered  Reason for no coverage   Hint
+                 -----------  --------  -----------------------  --------------
+  (act_parity == exp_parity)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target                    Non-masking condition(s)      
+ ---------  ---------  --------------------          -------------------------     
+  Row   1:    ***0***  (act_parity == exp_parity)_0  -                             
+  Row   2:          1  (act_parity == exp_parity)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      71        69         2    97.18%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/a4_inst --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File A_4.sv
+    11              1                      17747     
+    17              1                       4134     
+    18              1                       1421     
+    21              1                          1     
+    22              1                          1     
+    23              1                          1     
+    24              1                          1     
+    25              1                          1     
+    28              1                        710     
+    29              1                        710     
+    38              1                        710     
+    39              1                        710     
+    40              1                        710     
+    41              1                        710     
+    42              1                        710     
+    43              1                        710     
+    44              1                        710     
+    45              1                        710     
+    47              1                       3883     
+    48              1                       3883     
+    50              1                       3570     
+    51              1                       3570     
+    57              1                        710     
+    58              1                        710     
+    58              2                       5680     
+    59              1                       5680     
+    62              1                        353     
+    63              1                        353     
+    65              1                        710     
+    69              1                       7453     
+    70              1                       7453     
+    74              1                        710     
+    74              2                        710     
+    79              1                        710     
+    80              1                        710     
+    82              1                        710     
+    82              2                       5680     
+    83              1                       5680     
+    84              1                       5680     
+    85              1                       5680     
+    86              1                       5680     
+    90              1                        353     
+    91              1                        353     
+    92              1                        353     
+    93              1                        353     
+    94              1                        353     
+    95              1                        353     
+    96              1                        353     
+    98              1                        353     
+    100             1                    ***0***     
+    104             1                        357     
+    106             1                    ***0***     
+    112             1                          1     
+    114             1                          1     
+    115             1                          1     
+    116             1                        700     
+    117             1                        700     
+    118             1                        700     
+    119             1                        700     
+    120             1                        700     
+    121             1                        700     
+    122             1                        700     
+    125             1                          1     
+    126             1                         10     
+    127             1                         10     
+    128             1                         10     
+    129             1                         10     
+    130             1                         10     
+    131             1                         10     
+    132             1                         10     
+    134             1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         30        30         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/a4_inst --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         15 
+Toggled Node Count   =         15 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (30 of 30 bins)
+
+=================================================================================
+=== Instance: /top/tx_inst
+=== Design Unit: work.uart_tx
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        16        16         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/tx_inst
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File uart_tx.sv
+------------------------------------IF Branch------------------------------------
+    16                                      8874     Count coming in to IF
+    16              1                          1     
+    23              1                       8873     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    24                                      8873     Count coming in to CASE
+    25              1                       1419     
+    37              1                        710     
+    42              1                       5680     
+    54              1                        353     
+    59              1                        710     
+                                               1     All False Count
+Branch totals: 6 hits of 6 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    28                                      1419     Count coming in to IF
+    28              1                        710     
+                                             709     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    31                                       710     Count coming in to IF
+    31              1                        352     
+    31              2                        358     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    46                                      5680     Count coming in to IF
+    46              1                        710     
+                                            4970     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    47                                       710     Count coming in to IF
+    47              1                        353     
+    49              1                        357     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       1         1         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /top/tx_inst --
+
+  File uart_tx.sv
+----------------Focused Condition View-------------------
+Line       46 Item    1  (bit_cnt == 7)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /top/tx_inst --
+
+  File uart_tx.sv
+-----------Focused Expression View (Bimodal)------------
+Line       31 Item    1  (bus_if.even_parity? ~^bus_if.data_in: ^bus_if.data_in)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       5         5         0   100.00%
+    FSM Transitions                  9         6         3    66.66%
+
+================================FSM Details================================
+
+FSM Coverage for instance /top/tx_inst --
+
+FSM_ID: state
+    Current State Object : state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  25                IDLE                   0
+  37               START                   1
+  42                DATA                   2
+  59                STOP                   4
+  54              PARITY                   3
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                 711          
+                   START                 710          
+                    DATA                 710          
+                    STOP                 710          
+                  PARITY                 353          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  33                   0                 710          IDLE -> START                 
+  39                   1                 710          START -> DATA                 
+  50                   3                 357          DATA -> STOP                  
+  48                   4                 353          DATA -> PARITY                
+  61                   6                 710          STOP -> IDLE                  
+  56                   7                 353          PARITY -> STOP                
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+  17                   2          START -> IDLE       
+  17                   5          DATA -> IDLE        
+  17                   8          PARITY -> IDLE      
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   5         5         0   100.00%
+        FSM Transitions              9         6         3    66.66%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      25        25         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/tx_inst --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File uart_tx.sv
+    15              1                       8874     
+    17              1                          1     
+    18              1                          1     
+    19              1                          1     
+    20              1                          1     
+    21              1                          1     
+    22              1                          1     
+    26              1                       1419     
+    27              1                       1419     
+    29              1                        710     
+    30              1                        710     
+    31              1                        710     
+    32              1                        710     
+    33              1                        710     
+    38              1                        710     
+    39              1                        710     
+    43              1                       5680     
+    44              1                       5680     
+    45              1                       5680     
+    48              1                        353     
+    50              1                        357     
+    55              1                        353     
+    56              1                        353     
+    60              1                        710     
+    61              1                        710     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         32        32         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/tx_inst --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         16 
+Toggled Node Count   =         16 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (32 of 32 bins)
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/a4_inst/gen_stim/immed__33
+                     A_4.sv(33)                         0          1
+
+Total Coverage By Instance (filtered view): 83.51%
+

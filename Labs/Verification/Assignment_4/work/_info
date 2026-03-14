@@ -1,0 +1,166 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/questasim64_2021.1/examples
+T_opt
+!s110 1753814752
+V=Lghj0IJBaU=5`EdR>[>c2
+04 3 4 work top fast 0
+=1-047c163f456d-688916df-342-4558
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vA_4
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+DXx4 work 4 stim 0 22 b;9mD03z3BRDk3N>HQPKo0
+Z3 !s110 1753814745
+!i10b 1
+!s100 9FAXScl^5`K_SBLHJLFn[2
+I6Aa5g`iWo2>S3MNo4zWk02
+S1
+Z4 dE:/Moustafa/Verification/Assignments/Assignment_4
+w1753814742
+8A_4.sv
+FA_4.sv
+!i122 45
+L0 1 137
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1753814745.000000
+Z8 !s107 A_4.sv|uart_tx.sv|interface.sv|
+Z9 !s90 -reportprogress|300|interface.sv|uart_tx.sv|A_4.sv|+cover|-covercells|
+!i113 0
+Z10 !s102 +cover -covercells
+Z11 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a_4
+Xstim
+R2
+!s110 1753801487
+!i10b 1
+!s100 _DU7[C;GnI0h=_jih3eT]3
+Ib;9mD03z3BRDk3N>HQPKo0
+S1
+R4
+w1753801472
+8Uart_packet.sv
+FUart_packet.sv
+!i122 7
+Z12 L0 1 0
+Vb;9mD03z3BRDk3N>HQPKo0
+R6
+r1
+!s85 0
+31
+!s108 1753801487.000000
+!s107 Uart_packet.sv|E:/Moustafa/Verification/Assignments/Assignment_4/A_4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Moustafa/Verification/Assignments/Assignment_4/A_4.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtop
+R2
+!s110 1753802578
+!i10b 1
+!s100 had=flm940HOInYS;mQg;3
+I74[Of0AHe_ffAV:N5J_Oa0
+S1
+R4
+w1753802573
+8E:/Moustafa/Verification/Assignments/Assignment_4/top.sv
+FE:/Moustafa/Verification/Assignments/Assignment_4/top.sv
+!i122 11
+L0 5 10
+R5
+R6
+r1
+!s85 0
+31
+!s108 1753802578.000000
+!s107 A_4.sv|uart_tx.sv|interface.sv|E:/Moustafa/Verification/Assignments/Assignment_4/top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|E:/Moustafa/Verification/Assignments/Assignment_4/top.sv|
+!i113 0
+R13
+R1
+Yuart_if
+R2
+R3
+!i10b 1
+!s100 T=iz@M:UOn<hA?SebdMnh3
+I62nKm2NmcbVb_XC054^_L2
+S1
+R4
+w1753805980
+8interface.sv
+Finterface.sv
+!i122 45
+R12
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vuart_tx
+R2
+R3
+!i10b 1
+!s100 l>E=aX:d1_Ch0mMHd7FDg2
+I8f_N0i1d0oTgcJNh;X?H@0
+S1
+R4
+w1753802452
+8uart_tx.sv
+Fuart_tx.sv
+!i122 45
+L0 1 67
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
