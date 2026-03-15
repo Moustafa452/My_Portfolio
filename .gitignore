@@ -1,0 +1,16 @@
+# 1. Ignore everything by default
+*
+
+# 2. Allow all directories (so Git can find the files inside them)
+!*/
+
+# 3. Explicitly allow your source and project files
+!*.v
+!*.sv
+!*.py
+!*.do
+!*.md
+!.gitignore
+
+# 4. Optional: If you want to keep specific folders like 'Labs' or 'Projects'
+# even if they are empty, Git still needs a file inside them.
