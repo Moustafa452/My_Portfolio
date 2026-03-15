@@ -10,6 +10,7 @@
 !*.py
 !*.do
 !*.md
+!*.pdf
 !.gitignore
 
 # 4. Optional: If you want to keep specific folders like 'Labs' or 'Projects'
